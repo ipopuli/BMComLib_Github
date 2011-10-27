@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A948694A144EAE7E00E08DE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9486949144EAE7E00E08DE3 /* UIKit.framework */; };
+		A948694C144EAE7E00E08DE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A948694B144EAE7E00E08DE3 /* Foundation.framework */; };
+		A948694E144EAE7E00E08DE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A948694D144EAE7E00E08DE3 /* CoreGraphics.framework */; };
+		A9486954144EAE7E00E08DE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9486952144EAE7E00E08DE3 /* InfoPlist.strings */; };
+		A9486956144EAE7E00E08DE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9486955144EAE7E00E08DE3 /* main.m */; };
+		A948695A144EAE7E00E08DE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9486959144EAE7E00E08DE3 /* AppDelegate.m */; };
+		A948695D144EAE7E00E08DE3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A948695C144EAE7E00E08DE3 /* RootViewController.m */; };
+		A9486960144EAE7E00E08DE3 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A948695F144EAE7E00E08DE3 /* DataViewController.m */; };
+		A9486963144EAE7E00E08DE3 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9486962144EAE7E00E08DE3 /* ModelController.m */; };
+		A9486966144EAE7E00E08DE3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9486964144EAE7E00E08DE3 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9486945144EAE7E00E08DE3 /* 07_Senser_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 07_Senser_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9486949144EAE7E00E08DE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A948694B144EAE7E00E08DE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A948694D144EAE7E00E08DE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9486951144EAE7E00E08DE3 /* 07_Senser_Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "07_Senser_Sample-Info.plist"; sourceTree = "<group>"; };
+		A9486953144EAE7E00E08DE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9486955144EAE7E00E08DE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9486957144EAE7E00E08DE3 /* 07_Senser_Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "07_Senser_Sample-Prefix.pch"; sourceTree = "<group>"; };
+		A9486958144EAE7E00E08DE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9486959144EAE7E00E08DE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A948695B144EAE7E00E08DE3 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A948695C144EAE7E00E08DE3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A948695E144EAE7E00E08DE3 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		A948695F144EAE7E00E08DE3 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		A9486961144EAE7E00E08DE3 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		A9486962144EAE7E00E08DE3 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		A9486965144EAE7E00E08DE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9486942144EAE7E00E08DE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A948694A144EAE7E00E08DE3 /* UIKit.framework in Frameworks */,
+				A948694C144EAE7E00E08DE3 /* Foundation.framework in Frameworks */,
+				A948694E144EAE7E00E08DE3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A948693A144EAE7E00E08DE3 = {
+			isa = PBXGroup;
+			children = (
+				A948694F144EAE7E00E08DE3 /* 07_Senser_Sample */,
+				A9486948144EAE7E00E08DE3 /* Frameworks */,
+				A9486946144EAE7E00E08DE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9486946144EAE7E00E08DE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9486945144EAE7E00E08DE3 /* 07_Senser_Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9486948144EAE7E00E08DE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9486949144EAE7E00E08DE3 /* UIKit.framework */,
+				A948694B144EAE7E00E08DE3 /* Foundation.framework */,
+				A948694D144EAE7E00E08DE3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A948694F144EAE7E00E08DE3 /* 07_Senser_Sample */ = {
+			isa = PBXGroup;
+			children = (
+				A9486958144EAE7E00E08DE3 /* AppDelegate.h */,
+				A9486959144EAE7E00E08DE3 /* AppDelegate.m */,
+				A948695B144EAE7E00E08DE3 /* RootViewController.h */,
+				A948695C144EAE7E00E08DE3 /* RootViewController.m */,
+				A948695E144EAE7E00E08DE3 /* DataViewController.h */,
+				A948695F144EAE7E00E08DE3 /* DataViewController.m */,
+				A9486961144EAE7E00E08DE3 /* ModelController.h */,
+				A9486962144EAE7E00E08DE3 /* ModelController.m */,
+				A9486964144EAE7E00E08DE3 /* MainStoryboard.storyboard */,
+				A9486950144EAE7E00E08DE3 /* Supporting Files */,
+			);
+			path = 07_Senser_Sample;
+			sourceTree = "<group>";
+		};
+		A9486950144EAE7E00E08DE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9486951144EAE7E00E08DE3 /* 07_Senser_Sample-Info.plist */,
+				A9486952144EAE7E00E08DE3 /* InfoPlist.strings */,
+				A9486955144EAE7E00E08DE3 /* main.m */,
+				A9486957144EAE7E00E08DE3 /* 07_Senser_Sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9486944144EAE7E00E08DE3 /* 07_Senser_Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9486969144EAE7E00E08DE3 /* Build configuration list for PBXNativeTarget "07_Senser_Sample" */;
+			buildPhases = (
+				A9486941144EAE7E00E08DE3 /* Sources */,
+				A9486942144EAE7E00E08DE3 /* Frameworks */,
+				A9486943144EAE7E00E08DE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 07_Senser_Sample;
+			productName = 07_Senser_Sample;
+			productReference = A9486945144EAE7E00E08DE3 /* 07_Senser_Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A948693C144EAE7E00E08DE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = UBIVELOX/MB;
+			};
+			buildConfigurationList = A948693F144EAE7E00E08DE3 /* Build configuration list for PBXProject "07_Senser_Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A948693A144EAE7E00E08DE3;
+			productRefGroup = A9486946144EAE7E00E08DE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9486944144EAE7E00E08DE3 /* 07_Senser_Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9486943144EAE7E00E08DE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9486954144EAE7E00E08DE3 /* InfoPlist.strings in Resources */,
+				A9486966144EAE7E00E08DE3 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9486941144EAE7E00E08DE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9486956144EAE7E00E08DE3 /* main.m in Sources */,
+				A948695A144EAE7E00E08DE3 /* AppDelegate.m in Sources */,
+				A948695D144EAE7E00E08DE3 /* RootViewController.m in Sources */,
+				A9486960144EAE7E00E08DE3 /* DataViewController.m in Sources */,
+				A9486963144EAE7E00E08DE3 /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9486952144EAE7E00E08DE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9486953144EAE7E00E08DE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9486964144EAE7E00E08DE3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9486965144EAE7E00E08DE3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9486967144EAE7E00E08DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9486968144EAE7E00E08DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A948696A144EAE7E00E08DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "07_Senser_Sample/07_Senser_Sample-Prefix.pch";
+				INFOPLIST_FILE = "07_Senser_Sample/07_Senser_Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A948696B144EAE7E00E08DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "07_Senser_Sample/07_Senser_Sample-Prefix.pch";
+				INFOPLIST_FILE = "07_Senser_Sample/07_Senser_Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A948693F144EAE7E00E08DE3 /* Build configuration list for PBXProject "07_Senser_Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9486967144EAE7E00E08DE3 /* Debug */,
+				A9486968144EAE7E00E08DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9486969144EAE7E00E08DE3 /* Build configuration list for PBXNativeTarget "07_Senser_Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A948696A144EAE7E00E08DE3 /* Debug */,
+				A948696B144EAE7E00E08DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A948693C144EAE7E00E08DE3 /* Project object */;
+}

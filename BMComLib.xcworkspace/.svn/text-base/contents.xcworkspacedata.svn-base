@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:01_View_Sample/01_View_Sample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:02_TableView_Sample/02_TableView_Sample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:03_ScrollView_Sample/03_ScrollView_Sample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:04_Network_Sample/04_Network_Sample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:05_XmlParser_Sample/05_XmlParser_Sample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:06_Util_Sample/06_Util_Sample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:07_Senser_Sample/07_Senser_Sample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:08_DataProcess_Sample/08_DataProcess_Sample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:09_Touch_Sample/09_Touch_Sample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:10_Keyboard_Sample/10_Keyboard_Sample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:11_PushNotification_Sample/11_PushNotification_Sample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:12_Map_Sample/12_Map_Sample.xcodeproj">
+   </FileRef>
+</Workspace>
